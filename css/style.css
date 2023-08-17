@@ -1,0 +1,150 @@
+body {
+  margin: none;
+  padding: none;
+  border: none;
+  background-color: black;
+}
+
+
+
+.main_disp {
+  background-color: black;
+  background-image: url('../img/back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: top;
+}
+
+.resume_disp {
+  background-color: black;
+  background-image: url('../img/owltype.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: top;
+}
+
+.contact_disp {
+  background-color: black;
+  background-image: url('../img/wanted.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: top;
+}
+
+.post_disp {
+  background-color: black;
+  background-image: url('../img/demons.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: top;
+}
+
+.post_card_bg {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  min-width: 300px;
+  max-width:800px;
+  text-align: center;
+  color: ghostwhite;
+
+  /*opacity of background that won't affect font opacity*/
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+/*Post Card Classes*/
+.card-bg {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  min-width: 300px;
+  max-width:375px;
+  text-align: center;
+
+  /*opacity of background that won't affect font opacity*/
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.card-fg {
+  font-weight: bold;
+  color: #8aedce;
+}
+
+.post_img {
+  width:250px ;
+}
+
+.post_p {
+  padding: 7px;
+}
+
+
+/*Nav Bar Classes*/
+.nav_div {
+  margin: none;
+  padding: none;
+  border: none;
+}
+
+.nav_ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.nav_li {
+  display: inline;
+  float: right;
+}
+
+.nav_li_fav {
+  display: inline;
+  float: left;
+}
+
+.nav_li_fav:hover{
+
+}
+
+.nav_a {
+  display: block;
+  color: ghostwhite;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: black;
+  text-decoration: none;
+}
+
+.nav_a:hover {
+  background-color: #222;
+}
+
+
+
+.footer {
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.foot_a:link {
+  color: teal;
+  text-decoration: none;
+}
+
+.foot_a:visited {
+  color: teal;
+  text-decoration: none;
+}
+
+.foot_a:hover {
+  color: red;
+  text-decoration: none;
+}
