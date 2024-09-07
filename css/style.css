@@ -9,7 +9,7 @@ body {
 
 .main_disp {
   background-color: black;
-  background-image: url('../img/back.jpg');
+  background-image: url('../img/capamp01.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
@@ -37,6 +37,15 @@ body {
 .post_disp {
   background-color: black;
   background-image: url('../img/demons.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: top;
+}
+
+.fnbpost_disp {
+  background-color: black;
+  background-image: url('../img/fuzznotbombs.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
