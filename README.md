@@ -1,3 +1,3 @@
 # TFL
 
-A website by Thaoms Loney
+A website by Thomas Loney
